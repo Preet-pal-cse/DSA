@@ -1,4 +1,4 @@
-// diagonal matrix
+
 #include <iostream>
 using namespace std;
 
@@ -37,7 +37,7 @@ int main() {
     return 0;
 }
 
-// tri-diagonal matrix
+
 #include <iostream>
 using namespace std;
 
@@ -185,7 +185,7 @@ int main() {
     return 0;
 }
 
-// symmetric matrix
+
 #include <iostream>
 using namespace std;
 
