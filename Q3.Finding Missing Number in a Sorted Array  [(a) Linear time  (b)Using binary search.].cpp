@@ -1,4 +1,4 @@
-// linear-time solution
+
 #include <iostream>
 using namespace std;
 
@@ -11,14 +11,14 @@ int missingNumberLinear(int arr[], int size, int n) {
 }
 
 int main() {
-    int arr[] = {1, 2, 4, 5, 6};  // Missing number is 3
-    int n = 6; // array contains 5 elements, numbers 1 to 6
+    int arr[] = {1, 2, 4, 5, 6};  
+    int n = 6; 
     int missing = missingNumberLinear(arr, n - 1, n);
     cout << "Missing number (linear): " << missing << endl;
     return 0;
 }
 
-// using binary search
+
 #include <iostream>
 using namespace std;
 
@@ -35,7 +35,7 @@ int missingNumberBinary(int arr[], int low, int high) {
 }
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 6, 7, 8}; // Missing number is 5
+    int arr[] = {1, 2, 3, 4, 6, 7, 8}; 
     int n = sizeof(arr) / sizeof(arr[0]);
     int missing = missingNumberBinary(arr, 0, n - 1);
     if (missing != -1)
