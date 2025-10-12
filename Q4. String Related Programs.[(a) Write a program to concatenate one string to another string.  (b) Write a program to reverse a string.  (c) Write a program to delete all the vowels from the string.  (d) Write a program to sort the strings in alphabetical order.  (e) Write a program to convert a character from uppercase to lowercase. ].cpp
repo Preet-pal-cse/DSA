@@ -1,4 +1,4 @@
-// concatenating two strings
+
 #include <iostream>
 #include <string>
 std::string concat(const std::string& str, const char arr[]) {
@@ -21,7 +21,7 @@ int main() {
     return 0;
 }
 
-// reverse a string
+
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -35,7 +35,7 @@ int main() {
     return 0;
 }
 
-// deleting vowels
+
 #include <iostream>
 #include <string>
 #include <cctype>
@@ -57,7 +57,7 @@ int main() {
     return 0;
 }
 
-// sorting in alphabetical order
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -75,7 +75,7 @@ int main() {
     return 0;
 }
 
-// uppercase to lowercase
+
 #include <iostream>
 #include <cctype>
 using namespace std;
