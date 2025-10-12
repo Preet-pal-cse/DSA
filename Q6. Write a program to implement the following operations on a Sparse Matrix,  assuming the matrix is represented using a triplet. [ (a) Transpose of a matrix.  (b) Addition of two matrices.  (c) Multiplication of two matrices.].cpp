@@ -1,4 +1,4 @@
-// transpose of matrix
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -23,7 +23,7 @@ public:
 };
 
 int main() {
-    // Example sparse matrix of size 3x3
+    
     SparseMatrix mat(3, 3);
     mat.elements = {{1, 2, 5}, {2, 3, 8}, {3, 1, 7}, {3, 3, 9}};
     cout << "Original elements (i, j, value):" << endl;
@@ -38,7 +38,7 @@ int main() {
     return 0;
 }
 
-// addition of two matrices
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -65,7 +65,7 @@ public:
                       (elements[i].i == other.elements[j].i && elements[i].j > other.elements[j].j)) {
                 result.elements.push_back(other.elements[j++]);
             } else {
-                // same position
+               
                 Element e;
                 e.i = elements[i].i;
                 e.j = elements[i].j;
@@ -92,7 +92,7 @@ int main() {
     return 0;
 }
 
-// multiplication of two matrices
+
 #include <iostream>
 #include <vector>
 #include <map>
